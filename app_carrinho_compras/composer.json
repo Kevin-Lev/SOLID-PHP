@@ -1,0 +1,16 @@
+{
+    "name": "kevin-lev/app_carrinho_compras",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Kevin",
+            "email": "kevinlevrone.r@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/" 
+        }
+    }
+}
