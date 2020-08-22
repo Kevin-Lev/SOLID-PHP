@@ -2,7 +2,9 @@
 
 namespace App;
 
-class CarrinhoCompra {
+// Classe atualmente está ferindo o princípio da responsabilidade única (SRP) do SOLID. No momento ela está responsável por mais de uma responsabilidade (Métodos que envolvem o carrinho, os itens, o pedido e o envio de e-mails) ao invés de uma só (Métodos envolvidos apenas com o carrinho).
+
+class CarrinhoCompra { 
     //atributos
     private $itens;
     private $status;
